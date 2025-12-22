@@ -1,3 +1,6 @@
+Changes in version 1.20.1 (2025-12-22)
++ Bug fix in vignette Seurat creation
+
 Changes in version 1.13.2 (2023-12-28)
 + Compatibility with Seurat v5
 
