@@ -223,7 +223,7 @@ annots <- data.frame(cbind(cellType=as.character(Idents(seuratObject)),
 
 custom_mtx_seurat <- create_profile_matrix(mtx = Seurat::GetAssayData(object = seuratObject, 
                                                                       assay = "RNA", 
-                                                                      slot = "counts"), 
+                                                                      layer = "counts"), 
                                            cellAnnots = annots, 
                                            cellTypeCol = "cellType", 
                                            cellNameCol = "cellID", 
